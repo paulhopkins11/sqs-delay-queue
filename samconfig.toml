@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sqs-delay-queue"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-6yn4xr00fey9"
+s3_prefix = "sqs-delay-queue"
+region = "eu-west-2"
+profile = "deko-dev"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
